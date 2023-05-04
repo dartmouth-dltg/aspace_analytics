@@ -17,8 +17,12 @@ Add the plugin name to the list of enabled plugins in `config/config.rb`:
 AppConfig[:plugins] = ['some_plugin','aspace_analytics']
 ```
 
+Paste any analytics snippets into `public/views/layout_head.html.erb` 
+The plugin will add the contents of this file to all pages in the PUI.
+
 ## What does it do?
-The plugin adds Google and Matomo analyitcs to the PUI.
+The plugin adds a space to place analytics snippets for tracking usage of the PUI 
+and can be used for tracking with Google, Matomo and other packages.
 
 Joshua Shaw (<Joshua.D.Shaw@Dartmouth.EDU>)  
 Digital Library Technologies Group  
