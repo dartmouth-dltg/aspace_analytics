@@ -2,8 +2,8 @@
 
 ## Getting started
 
-Download and unpack the latest release of the plugin into your
-ArchivesSpace plugins directory:
+Download and unpack the latest release of the plugin for your version of
+ArchivesSpace into your ArchivesSpace plugins directory:
 
 ```
     $ curl ...
