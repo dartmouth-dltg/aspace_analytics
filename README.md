@@ -40,6 +40,8 @@ these files; edit them to suit your site.
 
 Compatible with ArchivesSpace 4.2.1.
 
+This plugin was partially authored by Claude (Anthropic's AI assistant).
+
 Joshua Shaw (<Joshua.D.Shaw@Dartmouth.EDU>)  
 Digital Library Technologies Group  
 Dartmouth College Library  
