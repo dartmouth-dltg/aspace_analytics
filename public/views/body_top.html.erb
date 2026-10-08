@@ -1,1 +1,6 @@
-<!-- place Google Tag Manager noscript here -->
+<% unless AppConfig.has_key?(:aspace_analytics_enabled) && !AppConfig[:aspace_analytics_enabled] %>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P8TRCSH"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<% end %>
