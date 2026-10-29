@@ -1,1 +1,5 @@
-<!-- place Google Tag Manager noscript here -->
+<% unless AppConfig.has_key?(:aspace_analytics_enabled) && !AppConfig[:aspace_analytics_enabled] %>
+<!-- Google Tag Manager (noscript) -->
+
+<!-- End Google Tag Manager (noscript) -->
+<% end %>

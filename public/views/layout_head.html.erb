@@ -1,2 +1,5 @@
-<!-- analytics plugin -->
-<!-- paste any analytics snippets into this file -->
+<% unless AppConfig.has_key?(:aspace_analytics_enabled) && !AppConfig[:aspace_analytics_enabled] %>
+<!-- place Google Tag Manager and any other analytics scripts here -->
+
+<!-- end analytics scripts -->
+<% end %>
