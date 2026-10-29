@@ -1,6 +1,6 @@
 # ArchivesSpace Analytics for the PUI
 
-Adds Google Tag Manager and Matomo analytics snippets to the PUI.
+Adds Google Tag Manager and other analytics snippets to the PUI.
 
 ## Getting started
 
@@ -32,11 +32,8 @@ AppConfig[:aspace_analytics_enabled] = false
 
 The plugin uses the PUI's plugin hooks to add:
 
-* `public/views/layout_head.html.erb` - the GTM and Matomo scripts, in `<head>`
+* `public/views/layout_head.html.erb` - the GTM and other analytics scripts, in `<head>`
 * `public/views/body_top.html.erb` - the GTM `<noscript>` fallback, at the top of `<body>`
-
-The GTM container ID, Matomo URL/site ID and domain list are hardcoded in
-these files; edit them to suit your site.
 
 Compatible with ArchivesSpace 4.2.1.
 
